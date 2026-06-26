@@ -1,5 +1,6 @@
 
 class Student{
+
     String studentName ;
     int age;
     double marks;
@@ -25,6 +26,7 @@ class Student{
             this.isAdmitted = false ;
         }
     }
+  
     void display(){
         System.out.println("Student Name : " + studentName);
         System.out.println("Age : " + age);
